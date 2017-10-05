@@ -1,0 +1,5 @@
+SPL memiliki SOLUSI UNIK
+X1 = 1.00
+X2 = 1.00
+X3 = 1.00
+X4 = 1.00
