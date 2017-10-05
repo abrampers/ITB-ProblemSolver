@@ -7,6 +7,19 @@ import java.lang.Math;
 
 public class Main {
 
+    public final static void clearConsole() {
+        try {
+            final String os = System.getProperty("os.name");
+
+            if (os.contains("Windows")) {
+                Runtime.getRuntime().exec("cls");
+            } else {
+                Runtime.getRuntime().exec("clear");
+            }
+        } catch (final Exception e) {
+            //  Handle any exceptions.
+        }
+    }
 
     public static void printMenu() {
         System.out.printf("MENU : \n");
@@ -149,7 +162,7 @@ public class Main {
 
     }
 
-     public static void hilbert() {
+    public static void hilbert() {
         Scanner scanner = new Scanner(System.in);
         int n;
 
@@ -263,9 +276,7 @@ public class Main {
 
         while (jalan) {
 
-
-            System.out.print("\033[H\033[2J");
-            System.out.flush();
+            clearConsole();
 
             System.out.println("Selamat Datang di       ");
             System.out.println();

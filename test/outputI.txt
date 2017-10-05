@@ -1,0 +1,2 @@
+Persamaan Interpolasi : 
+P(X) =  - 0.27X^1 + 6.03

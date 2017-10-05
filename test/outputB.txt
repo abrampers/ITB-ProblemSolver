@@ -1,0 +1,2 @@
+Persamaan Interpolasi : 
+P(X) =  0.07X^4 - 0.06X^3 - 0.62X^2 + 0.62X^1 + 1.00
