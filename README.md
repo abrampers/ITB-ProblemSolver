@@ -20,10 +20,10 @@ READ THIS
 
 Compile : 
 
-  javac src/*.java
+  javac src/*.java -d bin/
 
 Run :
 
-  java Main
+  java -cp ./bin Main
 
 NB : All external I/O Files are stored in /test folder
